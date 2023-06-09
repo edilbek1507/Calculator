@@ -1,0 +1,90 @@
+body {
+  background-color: aqua;
+  background-size: contain;
+  background-image: url("https://img.itinari.com/page/content/original/a131b592-bf07-4e4b-bddf-db111f6b369a-istock-636393568-1.jpg?ch=DPR&dpr=2.625&w=994&s=65cc67bdac6f00a484d069b9ca397784");
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.calc {
+  background-color: rgb(33, 32, 32);
+  width: 620px;
+  height: 780px;
+  padding: 32px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border-right: 10px solid rgb(6, 6, 6);
+  border-bottom: 7px solid rgb(0, 0, 0);
+  margin-top: 100px;
+}
+.casio_div {
+  display: flex;
+  justify-content: space-between;
+}
+.casio {
+  font-size: 30px;
+  display: flex;
+  padding-bottom: 6px;
+  color: rgb(211, 211, 211);
+}
+.main_panel {
+  background-color: rgb(125 105 81);
+  width: 200px;
+  height: 40px;
+  border: 2px solid rgb(33, 33, 33);
+  border-radius: 6px;
+}
+.casio2 {
+  font-size: 20px;
+  align-items: center;
+}
+.btn {
+  margin: 6px;
+  width: 100px;
+  height: 100px;
+  font-size: 32px;
+  transition: 0.4s all;
+  opacity: 0.9;
+  font-weight: 700;
+}
+.btn-1 {
+  width: 129px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn:active {
+  box-shadow: none;
+  top: 5px;
+}
+.btn-reset {
+  width: 200px;
+}
+.btn-zero {
+  width: 270px;
+}
+.calc__body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+.calc__num {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 336px;
+  flex: none;
+}
+.calc__operators {
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-control {
+  height: 100px;
+  font-size: 40px;
+  color: black;
+}
